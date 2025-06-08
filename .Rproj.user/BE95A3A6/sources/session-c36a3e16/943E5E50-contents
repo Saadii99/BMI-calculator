@@ -1,0 +1,60 @@
+---
+title: "BMI Calculator App Pitch"
+author: "Saad Ul Islam"
+date: '`r Sys.Date()`'
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+## Slide 1: Introduction
+
+Welcome to the BMI Calculator App presentation.
+
+This app helps users determine their Body Mass Index based on their height and weight inputs.
+
+---
+
+## Slide 2: App Features
+
+- Accepts user input: Height (cm) and Weight (kg)
+- Calculates BMI reactively
+- Displays a message indicating health status:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+
+---
+
+## Slide 3: How It Works
+
+**Formula Used:**
+
+$$ BMI = \frac{weight(kg)}{(height(m))^2} $$
+
+The app uses this formula inside a reactive function to update results in real-time as the user inputs change.
+
+---
+
+## Slide 4: Sample Calculation (R code)
+
+```{r, echo=TRUE}
+height_cm <- 170
+weight_kg <- 65
+height_m <- height_cm / 100
+bmi <- weight_kg / (height_m ^ 2)
+bmi
+```
+
+This calculates BMI for a person who is 170 cm tall and weighs 65 kg.
+
+---
+
+## Slide 5: Try It Yourself
+
+👉 Try the app live:  
+https://saadulislam.shinyapps.io/BMI-Calculator/
+
+📦 Source code:  
+https://github.com/Saadii99/BMI-calculator.git

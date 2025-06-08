@@ -10,7 +10,8 @@ This is a simple R Shiny web application that calculates the Body Mass Index (BM
 ## How to Run
 1. Open the project in RStudio.
 2. Run `ui.R` and `server.R` using the "Run App" button.
-3. Alternatively, deploy it to [shinyapps.io](https://www.shinyapps.io/).
+
+   You can run this app live here: https://saadulislam.shinyapps.io/BMI-Calculator/
 
 ## Author
 Saad Ul Islam

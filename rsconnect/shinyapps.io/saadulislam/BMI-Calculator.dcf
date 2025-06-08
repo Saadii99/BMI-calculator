@@ -1,0 +1,13 @@
+name: BMI-Calculator
+title: BMI-Calculator
+username: saadulislam
+account: saadulislam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14901341
+bundleId: 10419559
+url: https://saadulislam.shinyapps.io/BMI-Calculator/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: BMI_Pitch_Presentation.html|BMI_Pitch_Presentation.Rmd
